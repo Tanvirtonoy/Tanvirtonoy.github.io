@@ -6,6 +6,7 @@ import profile_photo from './images/profile.jpg';
 import resume from './files/Tanvir_Ahmed_Khan-Resume.pdf';
 import pub1 from './files/OSQLgen.pdf';
 import pub2 from './files/AlloyFLFSEDemo.pdf';
+import pub3 from './files/scalable_tensors.pdf';
 import { Card } from '@mui/material';
 import EmailIcon from '@mui/icons-material/Email';
 import SchoolIcon from '@mui/icons-material/School';
@@ -65,6 +66,15 @@ function App() {
             <Card style={{padding: '1em'}}>
               <h3>Publications</h3>
               <ul>
+                <li>
+                Scalable Tensors for Big Data Analytics
+                <br/>
+                L. Fegaras, <strong>T.A. Khan</strong>, M.H. Noor, T. Sultana
+                <br/>
+                IEEE International Conference on Big Data (BigData'22), December 2022
+                <br/>
+                [<a href={pub3}>PDF</a>]
+                </li>
                 <li>
                 Translation of Array-based Loop Programs to Optimized SQL-based Distributed Programs
                 <br/>
@@ -242,7 +252,7 @@ function App() {
     </Box>
     <div style={{padding: '1.5em', textAlign: "center"}}>
       <footer>
-        © 2022 Tanvir Ahmed Khan 
+        © 2023 Tanvir Ahmed Khan 
       </footer>
     </div>
     </div>
