@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.48f9deb5.css",
-    "main.js": "/static/js/main.be18214e.js",
+    "main.js": "/static/js/main.262e99a9.js",
     "static/js/787.30237536.chunk.js": "/static/js/787.30237536.chunk.js",
     "static/media/OSQLgen.pdf": "/static/media/OSQLgen.c40be73e887b5212a088.pdf",
     "static/media/AlloyFLFSEDemo.pdf": "/static/media/AlloyFLFSEDemo.8a2d029af7452d4a9b27.pdf",
     "static/media/Tanvir_Ahmed_Khan-Resume.pdf": "/static/media/Tanvir_Ahmed_Khan-Resume.458dc3b50a759543f30d.pdf",
+    "static/media/scalable_tensors.pdf": "/static/media/scalable_tensors.de1062f2cdd55b8511a6.pdf",
     "static/media/profile.jpg": "/static/media/profile.1afb94642fbcb2afdfe5.jpg",
     "index.html": "/index.html",
     "main.48f9deb5.css.map": "/static/css/main.48f9deb5.css.map",
-    "main.be18214e.js.map": "/static/js/main.be18214e.js.map",
+    "main.262e99a9.js.map": "/static/js/main.262e99a9.js.map",
     "787.30237536.chunk.js.map": "/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.48f9deb5.css",
-    "static/js/main.be18214e.js"
+    "static/js/main.262e99a9.js"
   ]
 }
