@@ -7,6 +7,7 @@ import resume from './files/Tanvir_Ahmed_Khan-Resume.pdf';
 import pub1 from './files/OSQLgen.pdf';
 import pub2 from './files/AlloyFLFSEDemo.pdf';
 import pub3 from './files/scalable_tensors.pdf';
+import pub4 from './files/Tensor_Planner.pdf';
 import { Card } from '@mui/material';
 import EmailIcon from '@mui/icons-material/Email';
 import SchoolIcon from '@mui/icons-material/School';
@@ -67,6 +68,15 @@ function App() {
               <h3>Publications</h3>
               <ul>
                 <li>
+                A Planner for Scalable Tensor Programs
+                <br/>
+                <strong>T.A. Khan</strong>, L. Fegaras
+                <br/>
+                IEEE International Conference on Big Data (BigData'24), December 2024
+                <br/>
+                [<a href={pub4}>PDF</a>]
+                </li>
+                <li>
                 Scalable Tensors for Big Data Analytics
                 <br/>
                 L. Fegaras, <strong>T.A. Khan</strong>, M.H. Noor, T. Sultana
@@ -101,6 +111,20 @@ function App() {
             <Card style={{padding: '1em'}}>
               <h3>Professional Experience</h3>
               <div>
+                <div>
+                  <strong>Cornami Inc.</strong>
+                  <br/>Campbell, CA, USA<br/><br/>
+                </div>
+                <div style={{paddingLeft: '2em'}}>
+                  <strong>Compiler Engineer Intern</strong>
+                  <br/>
+                  Feb 2025 - May 2025
+                  <ul>
+                    <li>
+                    Worked on compiler extension on MLIR using fully-homomorphic encryption to run ML programs on Cornami accelerator
+                    </li>
+                  </ul>
+                </div>
                 <div>
                   <strong>The University of Texas System</strong>
                   <br/>Austin, Texas, USA<br/><br/>
@@ -220,10 +244,10 @@ function App() {
               <h3>Skills</h3>
               <ul>
                 <li>
-                  <strong>Languages: </strong> C/C++, Python, JavaScript, TypeScript, C#, Java, Scala
+                  <strong>Languages: </strong> C/C++, Python, JavaScript, TypeScript, C#, Java, Scala, CUDA
                 </li> 
                 <li>
-                  <strong>Technologies: </strong> Apache Spark, Hadoop, TensorFlow, PyTorch, Angular, React, .NET, 
+                  <strong>Technologies: </strong> Apache Spark, Hadoop, TensorFlow, PyTorch, MPI, OpenMP, OpenAcc, LLM, MLIR, Angular, React, .NET, 
                   Tizen, Android, Play, MySQL, MSSQL, Bash, Git
                 </li>
               </ul>
@@ -252,7 +276,7 @@ function App() {
     </Box>
     <div style={{padding: '1.5em', textAlign: "center"}}>
       <footer>
-        © 2023 Tanvir Ahmed Khan 
+        © 2025 Tanvir Ahmed Khan 
       </footer>
     </div>
     </div>
